@@ -3,10 +3,304 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini Portofolio</title>
-    <link rel="stylesheet" href="style.css"/>
+    <title>Bunayya Academy</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header class="navbar">
+        <div class="logo-wrapper">
+            <div class="logo"></div>
+            <span class="brand-name">Bunayya Academy</span>
+        </div>
+        <nav>
+            <a  href="#home">Home</a>
+            <a  href="#profile">Our Profile</a>
+            <a  href="#portofolio">Portofolio</a>
+            <a  href="#message">Message Us</a>
+        </nav>                                                                                                                                                                                                                                                                                                                                                                                                   
+    </header>
+
+    <main>
+        <!-- Home Page -->
+        <section id="home" class="min-h-screen flex flex-col items-center justify-center text-center px-4 bg-gradient-to-b from-gray-50 to-white">
+            <h1 id="welcome-speech" class="text-2xl md:text-4xl font-extrabold text-gray-800 tracking-tight animate-fade-in-down">
+                Ahlan Wa Sahlan , Selamat Datang di Bunayya Academy!
+            </h1>
+            
+            <p class="mt-4 text-base md:text-lg text-gray-600 font-medium max-w-2xl">
+                Membentuk Generasi Qur'ani sejak Dini.
+            </p>
+
+            <div class="mt-12 p-8 md:p-12 bg-white/80 backdrop-blur-md rounded-[2rem] shadow-2xl shadow-teal-100/50 max-w-3xl mx-auto border border-teal-50 transform transition duration-500 hover:scale-105">
+                <p class="text-2xl md:text-3xl mb-8 leading-loose text-black-700" style="font-family: 'Amiri', serif;" dir="rtl">
+                    خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ
+                </p>
+                
+                <div class="space-y-3">
+                    <p class="text-gray-700 italic text-lg md:text-xl font-medium leading-relaxed">
+                        "Sebaik-baik kalian adalah orang yang belajar Al-Qur'an dan mengajarkannya."
+                    </p>
+                    <p class="text-sm font-bold text-teal-600 tracking-widest uppercase">(HR. BUKHARI)</p>
+                </div>
+                
+                <div class="absolute -top-4 -right-4 w-20 h-20 bg-teal-100 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+                <div class="absolute -bottom-8 -left-4 w-24 h-24 bg-orange-100 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+            </div>
+        </section>
+
+
+        <!-- Profile -->
+        <section id="profile" class="py-20 bg-white">
+            <div class="container mx-auto px-10">
+                
+                <div class="text-center max-w-3xl mx-auto mb-20">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Tentang Bunayya Academy</h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        Bunayya Academy adalah lembaga pendidikan Al-Qur'an khusus anak-anak yang berfokus pada metode pembelajaran yang menyenangkan, interaktif, dan berlandaskan akhlak mulia. Kami hadir untuk membantu orang tua mencetak generasi penghafal Al-Qur'an sejak usia dini.
+                    </p>
+                </div>
+
+                <div class="mb-24">
+                    <div class="text-center mb-12">
+                        <h3 class="text-2xl font-bold uppercase tracking-widest text-gray-700">Visi & Misi Kami</h3>
+    
+                    </div>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
+                        <div class="text-center group">
+                            <div class="w-24 h-24 border-2 border-black-500 rounded-full mx-auto mb-6 overflow-hidden transition-transform duration-300 group-hover:scale-110">
+                                <img src="Family.jpg" alt="Visi Misi" class="w-full h-full object-cover">
+                            </div>
+                            <h4 class="font-bold mb-3 uppercase text-sm">Mendidik Generasi Bertaqwa</h4>
+                            <p class="text-xs text-gray-500 leading-relaxed">Mendidik anak menjadi sholeh & sholehah, bertaqwa, dengan menanamkan akhlaq yang baik secara kuat dan kokoh.</p>
+                        </div>
+                        <div class="text-center group">
+                            <div class="w-24 h-24 border-2 border-black-500 rounded-full mx-auto mb-6 overflow-hidden transition-transform duration-300 group-hover:scale-110">
+                                <img src="Family.jpg" alt="Visi Misi" class="w-full h-full object-cover">
+                            </div>
+                            <h4 class="font-bold mb-3 uppercase text-sm">Membina Anak Penghafal Al-Qur'an</h4>
+                            <p class="text-xs text-gray-500 leading-relaxed">Membina anak menjadi penghafal Al-Qur'an, beraqidah lurus, beribadah benar, dan berprestasi.</p>
+                        </div>
+                        <div class="text-center group">
+                            <div class="w-24 h-24 border-2 border-black-500 rounded-full mx-auto mb-6 overflow-hidden transition-transform duration-300 group-hover:scale-110">
+                                <img src="Family.jpg" alt="Visi Misi" class="w-full h-full object-cover">
+                            </div>
+                            <h4 class="font-bold mb-3 uppercase text-sm">Membentuk Generasi Robbani</h4>
+                            <p class="text-xs text-gray-500 leading-relaxed">Membentuk generasi robbani yang memahami dienul Islam sesuai manhaj ahlu sunnah wal jama'ah.</p>
+                        </div>
+                        <div class="text-center group">
+                            <div class="w-24 h-24 border-2 border-black-500 rounded-full mx-auto mb-6 overflow-hidden transition-transform duration-300 group-hover:scale-110">
+                                <img src="Family.jpg" alt="Visi Misi" class="w-full h-full object-cover">
+                            </div>
+                            <h4 class="font-bold mb-3 uppercase text-sm">Menanamkan Cinta Al-Qur'an</h4>
+                            <p class="text-xs text-gray-500 leading-relaxed">Menyelenggarakan pembelajaran yang interaktif agar anak merasa senang, nyaman, dan tumbuh rasa cinta terhadap Al-Qur'an sejak dini.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Portofolio -->
+         <section id="portofolio" class="py-12 bg-gray-50">
+            <div class="container mx-auto px-6">
+                
+                <div class="text-center mb-10">
+                    <h3 class="text-3xl font-bold text-gray-800">Program Bimbingan Belajar Mengaji</h3>
+                    <p class="text-gray-500 text-sm mt-1">Program diperuntukkan untuk anak-anak dan remaja</p>
+                    
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-16">
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex gap-4 items-start">
+                        <div>
+                            <h4 class="text-lg font-bold text-black-500">Tahsin Quran</h4>
+                            <p class="text-gray-600 text-xs mt-1">Belajar membaca Al-Qur'an menjadi lebih mudah dan menyenangkan.</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex gap-4 items-start">
+                        <div>
+                            <h4 class="text-lg font-bold text-black-500">Tahfidz Quran</h4>
+                            <p class="text-gray-600 text-xs mt-1">Program Tahfidz membantu ananda menghafal dengan mutqin.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mb-8">
+                    <h3 class="text-2xl font-bold text-gray-800">Mengenal Pengajar Kami</h3>
+                    <p class="text-gray-500 text-sm mt-1">Ustadz & Ustadzah yang berpengalaman di bidangnya</p>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
+                    
+                    <div class="bg-white p-6 rounded-xl shadow-sm text-center border-b-4 border-gray-400">
+                        <div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden">
+                            <img src="ustadz-ahmad.jpg" alt="Ustadz Ahmad" class="w-full h-full object-cover">
+                        </div>
+                        <h5 class="font-bold text-gray-800">Ustadz Ahmad</h5>
+                        <p class="text-gray-400 text-xs font-medium uppercase italic">Spesialis Tahsin</p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-sm text-center border-b-4 border-gray-400">
+                        <div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden">
+                            <img src="ustadzah-fatimah.jpeg" alt="Ustadzah Fatimah" class="w-full h-full object-cover">
+                        </div>
+                        <h5 class="font-bold text-gray-800">Ustadzah Fatimah</h5>
+                        <p class="text-gray-400 text-xs font-medium uppercase italic">Spesialis Tahfidz</p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-sm text-center border-b-4 border-gray-400">
+                        <div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden">
+                            <img src="ustadz-zaid.jpg" alt="Ustadz Zaid" class="w-full h-full object-cover">
+                        </div>
+                        <h5 class="font-bold text-gray-800">Ustadz Zaid</h5>
+                        <p class="text-gray-400 text-xs font-medium uppercase italic">Makharijul Huruf</p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-sm text-center border-b-4 border-gray-400">
+                        <div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden">
+                            <img src="ustadzah-aisyah.jpeg" alt="Ustadzah Aisyah" class="w-full h-full object-cover">
+                        </div>
+                        <h5 class="font-bold text-gray-800">Ustadzah Aisyah</h5>
+                        <p class="text-gray-400 text-xs font-medium uppercase italic">Tahfidz Anak</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Message Us -->
+         <section id="message" class="p-4 md:p-10"> 
+            <div class="max-w-6xl mx-auto px-4 md:px-10">
+                <h2 class="text-left text-3xl font-bold mb-10">Message Us</h2>
+            </div>
+
+            <div class="flex flex-col md:flex-row gap-6 md:gap-10 items-start justify-center max-w-6xl mx-auto bg-white p-6 md:p-10 rounded-3xl shadow-xl border border-gray-400">
+                
+                <div class="w-full md:flex-1">
+                    <form id="messageForm" class="space-y-4">
+                        <div class="flex flex-col sm:flex-row sm:items-center">
+                            <label class="w-full sm:w-32 mb-1 sm:mb-0">Nama</label>
+                            <div class="hidden sm:block mr-4">:</div>
+                            <input type="text" id="inputNama" class="flex-1 border border-gray-400 p-2 rounded-lg" placeholder="Nama Anda" required>
+                        </div>
+
+                        <div class="flex flex-col sm:flex-row sm:items-center">
+                            <label class="w-full sm:w-32 mb-1 sm:mb-0">Tanggal Lahir</label>
+                            <div class="hidden sm:block mr-4">:</div>
+                            <input type="date" id="inputTgl" class="flex-1 border border-gray-400 p-2 rounded-lg">
+                        </div>
+
+                        <div class="flex flex-col sm:flex-row sm:items-center">
+                            <label class="w-full sm:w-32 mb-1 sm:mb-0">Jenis Kelamin</label>
+                            <div class="hidden sm:block mr-4">:</div>
+                            <div class="flex gap-4">
+                                <label class="flex items-center gap-2">
+                                    <input type="radio" name="jk" id="jkLaki" value="Laki-laki"> Laki-laki
+                                </label>
+                                <label class="flex items-center gap-2">
+                                    <input type="radio" name="jk" id="jkPerempuan" value="Perempuan"> Perempuan
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col sm:flex-row items-start">
+                            <label class="w-full sm:w-32 mb-1 sm:mb-0">Pesan</label>
+                            <div class="hidden sm:block mr-4">:</div>
+                            <textarea id="inputPesan" class="flex-1 border border-gray-400 p-2 rounded-lg h-24 w-full" placeholder="Pesan"></textarea>
+                        </div>
+
+                        <div class="pt-4">
+                            <button type="button" id="btnSubmit" onclick="submitForm()" disabled
+                                class="w-full bg-teal-600 text-white font-bold rounded-xl py-3 hover:bg-teal-700 transition-colors disabled:bg-gray-200">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="w-full md:w-1/2">
+                    <div class="bg-gray-50 p-6 md:p-8 rounded-2xl min-h-[300px] border border-gray-400">
+                        <p class="mb-6 text-sm font-bold border-b border-gray-400 pb-2 text-gray-800">
+                            Current time: <span id="resTime" class="font-normal"></span>
+                        </p>
+                        <div class="space-y-4">
+                            <div class="flex justify-between border-b border-gray-400 pb-1 text-sm">
+                                <span class="font-semibold text-gray-600">Nama</span>
+                                <span id="resNama" class="text-gray-900"></span>
+                            </div>
+                            <div class="flex justify-between border-b border-gray-400 pb-1 text-sm">
+                                <span class="font-semibold text-gray-600">Tanggal Lahir</span>
+                                <span id="resTgl" class="text-gray-900"></span>
+                            </div>
+                            <div class="flex justify-between border-b border-gray-400 pb-1 text-sm">
+                                <span class="font-semibold text-gray-600">Jenis Kelamin</span>
+                                <span id="resJK" class="text-gray-900"></span>
+                            </div>
+                            <div class="pt-2">
+                                <span class="font-semibold text-gray-600 block mb-1 text-sm">Pesan:</span>
+                                <div id="resPesan" class="text-gray-900 bg-white p-3 rounded-lg min-h-[80px] text-xs border border-gray-400"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-50 pt-16 pb-0 text-gray-700 border-t border-gray-200">
+        <div class="container mx-auto px-10 pb-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                
+                <div class="space-y-4">
+                    <div class="flex items-center gap-2">
+                        <img src="/css/logo.jpeg" alt="Logo" class="w-12"> <h2 class="text-2xl font-bold text-gray-800">Bunayya Academy</h2>
+                    </div>
+                    <p class="text-sm leading-relaxed">
+                        Bunayya Academy berdiri dengan misi mendidik generasi Qur'ani yang berakhlak mulia. Kami telah melayani banyak anak untuk belajar mengaji secara privat maupun kelas.
+                    </p>
+                </div>
+
+                <div class="md:pl-10">
+                    <h3 class="font-bold text-gray-900 mb-6 uppercase tracking-wider">Informasi</h3>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="#" class="hover:text-teal-600 transition">Syarat dan Ketentuan</a></li>
+                        <li><a href="#" class="hover:text-teal-600 transition">Kebijakan Privasi</a></li>
+                        <li><a href="#" class="hover:text-teal-600 transition">FAQ</a></li>
+                        <li><a href="#" class="hover:text-teal-600 transition">Lowongan</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-gray-900 mb-6 uppercase tracking-wider">Kontak</h3>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex gap-2">
+                            <span class="font-semibold w-16">Alamat:</span>
+                            <span>Jl. Cabe Merah No. 100, Rawa Rawa, Cengkeh</span>
+                        </li>
+                        <li class="flex gap-2">
+                            <span class="font-semibold w-16">WA:</span>
+                            <span class="font-bold text-gray-900">08532335571</span>
+                        </li>
+                        <li class="flex gap-2">
+                            <span class="font-semibold w-16">WA:</span>
+                            <span class="font-bold text-gray-900">08107896575</span>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="bg-gray-800 py-4 text-center text-white text-sm">
+            <p>Copyright &copy; 2026 Bunayya Academy. All rights reserved.</p>
+        </div>
+    </footer>
 
     <script src="js/script.js"></script>
 </body>
